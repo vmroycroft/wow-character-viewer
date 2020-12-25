@@ -1,6 +1,7 @@
 # WoW Character Viewer
 
 ![Version](https://img.shields.io/github/package-json/v/vmroycroft/wow-character-viewer)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/394ff116-d037-49e2-8358-0011c9f6c147/deploy-status)](https://app.netlify.com/sites/eloquent-leavitt-a897a8/deploys)
 
 A website that enables you to view all of your WoW character stats in one place.
 

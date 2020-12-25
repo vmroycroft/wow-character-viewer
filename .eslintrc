@@ -1,0 +1,30 @@
+{
+	"extends": [
+		"react-app",
+		"react-app/jest",
+		"airbnb",
+		"airbnb/hooks",
+		"prettier",
+		"prettier/react",
+		"plugin:react/recommended",
+		"plugin:jsx-a11y/recommended"
+	],
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"es6": true,
+		"jest": true,
+		"node": true
+	},
+	"plugins": ["react", "prettier", "jsx-a11y"],
+	"rules": {
+		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+		"react/jsx-props-no-spreading": "off",
+		"react/forbid-prop-types": "off",
+		"jsx-a11y/click-events-have-key-events": "off",
+		"jsx-a11y/no-static-element-interactions": "off",
+		"no-use-before-define": ["error", "nofunc"],
+		"no-unused-expressions": [1, { "allowTernary": true }]
+		// "eslintreact/react-in-jsx-scope": "off"
+	}
+}

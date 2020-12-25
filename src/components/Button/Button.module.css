@@ -1,0 +1,12 @@
+.button:hover {
+	@apply bg-black;
+}
+
+/* TODO add group-active varient (see https://github.com/benface/tailwindcss-interaction-variants)*/
+.button:active {
+	@apply bg-yellow-700 border-yellow-700;
+}
+
+.button:active .button__inner {
+	@apply bg-yellow-700;
+}

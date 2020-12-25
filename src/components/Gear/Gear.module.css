@@ -1,0 +1,12 @@
+.gridCols {
+	grid-template-columns: auto 1fr;
+	grid-auto-rows: 1fr;
+}
+
+.slotName {
+	@apply text-purple-300 bg-black;
+}
+
+.slotName.selected {
+	@apply text-black bg-white;
+}
